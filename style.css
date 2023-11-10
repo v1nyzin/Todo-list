@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Amatic SC', sans-serif;
+    font-size: 30px;
+}
+body {
+    width: 100%;
+    padding: 120px 0;
+    font-size: 20px;
+    background-image: linear-gradient(to left,#4bf2c5,#aeffff,#256dcf,#2d6073);
+    background-size: 500% 100%;
+    animation: degrade-animado 5s infinite alternate ;
+}
+.container {
+    text-align: center;
+    max-width: 640px;
+    margin: 80px auto;
+    padding: 80px;
+    border-radius: 30px;
+    box-shadow: 1px 1px 4px black;
+    background-color: aliceblue;
+}
+p{
+    margin: 10px;
+}
+
+@keyframes degrade-animado {
+    0%{
+        background-position-x: 0%;
+    }
+    100%{
+        background-position-x: 100%;
+    }
+}
