@@ -1,2 +1,2 @@
 # Todo-list
- list
+Lista de tarefas com varias funcionalidades.
